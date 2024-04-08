@@ -9,11 +9,16 @@
     table { 
     border-collapse: collapse;
     width: 100%;
+    max-width: 800px;
     }
     th, td {
     text-align: left;
     padding: 8px;
     border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
     }
 </style>
 <body>
@@ -22,35 +27,81 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Nombre</th>
-                <th>Edad </th>
-                <th>Genero</th>
-                <th>Empresa</th>
-                <th>Correo Electronico</th>
-                <th>Telefono</th>
-                <th>Direccion</th>
+                <th>Index</th>
+                <th>guid</th>
+                <th>IsActive</th>
+                <th>balance</th>
+                <th>picture</th>
+                <th>age </th>
+                <th>eyeColor</th>
+                <th>name</th>
+                <th>gender</th>
+                <th>company</th>
+                <th>email</th>
+                <th>phone</th>
+                <th>address</th>
+                <th>about</th>
+                <th>registered</th>
+                <th>latitude</th>
+                <th>longitude</th>
+                <th>tags</th>
             </tr>
+            
         </thead>
     <tbody>
         <tr>
             <td>65d5fc2a8d655139061dffee</td>
-            <td>Monroe sears</td>
+            <td>0</td>
+            <td>850cb375-5281-4b7f-b769-e8119877e3e9</td>
+            <td>false</td>
+            <td>"$2,647.81"</td>
+            <td>http://placehold.it/32x32&quot</td>
             <td>39</td>
-            <td>Male</td>
+            <td>green</td>
+            <td>Monroe Sears</td>
+            <td>male</td>
             <td>UNIWORLD</td>
             <td>monroesears@uniworld.com</td>
             <td>+1 (800) 578-2346</td>
             <td>734 Times Placez, Coyote, Arkansas, 2908</td>
+            <td>Dolore nisi ad tempor ullamco esse. Excepteur consequat labore aliqua eiusmod consequat laboris excepteur aliquip aliqua incididunt. Pariatur enim labore officia eu quis ex aliqua proident laboris labore anim nulla</td>
+            <td>2020-04-08T01:20:04 +05:00</td>
+            <td> -3.925674</td>
+            <td>-88.910095</td>
+            <td> "anim",
+                "elit",
+                "laboris",
+                "elit",
+                "voluptate",
+                "adipisicing",
+                "incididunt"</td>
         </tr>
         <tr>
             <td>65d5fc2a950f5c2227332bf1</td>
-            <td>Dionne Aguilar</td>
+            <td>1</td>
+            <td>9bd5f950-c2f2-4f8c-9084-f4dfc2598864</td>
+            <td>false</td>
+            <td>$2,305.53</td>
+            <td>http://placehold.it/32x32&quot</td>
             <td>35</td>
-            <td>Female</td>
+            <td>brown</td>
+            <td>Dionne Aguilar</td>
+            <td>female</td>
             <td>TROPOLIS</td>
             <td>dionneaguilar@tropolis.com</td>
             <td>+1 (956) 401-2654</td>
             <td>839 Canarsie Road, Sena, Washington, 5390</td>
+            <td>Excepteur enim fugiat ullamco amet irure irure. Aute Lorem magna aute nisi enim ex elit elit eu quis. Culpa sit cupidatat voluptate aliquip voluptate. Ea officia occaecat anim labore</td>
+            <td>2017-12-01T02:48:31 +05:00</td>
+            <td>-10.478908</td>
+            <td> 99.512436</td>
+            <td>"est",
+                "ea",
+                "minim",
+                "exercitation",
+                "eiusmod",
+                "commodo",
+                "ut"</td>
         </tr>
 
 
