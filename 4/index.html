@@ -3,13 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina warzone</title>
-    <h1></h1>
-    <img width="" src="" alt="">
-    
+    <title>Página Warzone</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; /* Para alinear los contenedores verticalmente */
+        }
 
+        .container {
+            background-color: black; /* Color de fondo del contenedor */
+            padding: 10px; /* Ajusta el padding según sea necesario */
+            margin-bottom: 20px; /* Espacio entre los contenedores */
+            position: relative; /* Para posicionar los elementos hijos de forma absoluta */
+            display: inline-block; /* Para que el contenedor se ajuste al contenido */
+            width: 400px; /* Ancho del contenedor */
+            height: 400px; /* Alto del contenedor */
+        }
+
+        .container img, .container video {
+            max-width: 100%; /* Para que las imágenes y videos no se desborden del contenedor */
+            max-height: 100%; /* Para que las imágenes y videos no se desborden del contenedor */
+        }
+
+        /* Estilos para posicionar las imágenes y los videos */
+        .imagen3 { position: absolute; top: 0; left: 0; width: 50%; height: auto; } /* Arriba a la izquierda */
+        .imagen4 { position: absolute; top: 0; right: 0; width: 50%; height: auto; } /* Arriba a la derecha */
+
+        .video1 { position: absolute; bottom: 0; left: 0; width: 50%; height: auto; } /* Abajo a la izquierda */
+        .video2 { position: absolute; bottom: 0; right: 0; width: 50%; height: auto; } /* Abajo a la derecha */
+
+        .video11 { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } /* Cubre todo el contenedor */
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <img class="imagen3" src="media/3.jpg" alt="">
+        <img class="imagen4" src="media/4.jpg" alt="">
+        
+        <video class="video1" autoplay loop muted>
+            <source src="media/1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <video class="video2" autoplay loop muted>
+            <source src="media/2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+ 
+    <div class="container">
+        <video class="video11" autoplay loop muted>
+            <source src="media/11.mp4" type="video/mp4">
+        </video>  
+    </div>
+ 
+    <div class="container">
+        <img class="imagen3" src="media/17.jpg" alt="">
+        <video class="video1" autoplay loop muted>
+            <source src="media/13.mp4" type="video/mp4">
+        </video>
+        <video class="video2" autoplay loop muted>
+            <source src="media/14.mp4" type="video/mp4">
+        </video>
+        <video class="video1" autoplay loop muted>
+            <source src="media/15.mp4" type="video/mp4">
+        </video>
+        <video class="video2" autoplay loop muted>
+            <source src="media/16.mp4" type="video/mp4">
+        </video>
+        <video class="video1" autoplay loop muted>
+            <source src="media/18.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <video class="video2" autoplay loop muted>
+            <source src="media/19.mp4" type="video/mp4">
+        </video>
+        <video class="video1" autoplay loop muted>
+            <source src="media/20.mp4" type="video/mp4">
+        </video>
+        <video class="video2" autoplay loop muted>
+            <source src="media/21.mp4" type="video/mp4">
+        </video>
+        <video class="video1" autoplay loop muted>
+            <source src="media/22.mp4" type="video/mp4">
+        </video>
+    </div>
 </body>
 </html>
