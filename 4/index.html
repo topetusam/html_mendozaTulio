@@ -3,107 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Warzone</title>
-    <style>
-        body {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            background-color: black;
-            padding: 20px;
-            margin-bottom: 40px;
-            position: relative;
-            display: inline-block;
-            width: 500px;
-            height: 500px;
-        }
-
-        .container img, .container video {
-            max-width: 100%;
-            max-height: 100%;
-            position: absolute;
-        }
-
-        .imagen3 { top: 0; left: 0; width: 50%; height: 50%; }
-        .imagen4 { top: 0; right: 0; width: 50%; height: 50%; }
-        .video1 { bottom: 0; left: 0; width: 50%; height: 50%; }
-        .video2 { bottom: 0; right: 0; width: 50%; height: 50%; }
-        .video11 { top: 0; left: 0; width: 100%; height: 100%; }
-        
-        .container:nth-child(3) .imagen17 { top: 0; left: 50%; width: 40%; height: 50%; }
-        .container:nth-child(3) video { bottom: 0; left: 0; width: 50%; height: 50%; }
-        .container:nth-child(3) video:nth-child(4) { left: 50%; }
-        .container:nth-child(3) video:nth-child(n+5) { top: 50%; width: 33.33%; height: 50%; }
-        .container:nth-child(3) video:nth-child(6) { left: 33.33%; }
-        .container:nth-child(3) video:nth-child(7) { left: 66.66%; }
-        
-        .container:nth-child(4) video { top: 0; left: 0; width: 50%; height: 50%; }
-        .container:nth-child(4) video:nth-child(2) { left: 50%; }
-        .container:nth-child(4) video:nth-child(n+3) { top: 50%; width: 50%; height: 50%; }
-        .container:nth-child(4) video:nth-child(5) { bottom: 0; right: 0; width: 50%; height: 50%; }
-    </style>
+    <title>Web de call of duty</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img class="imagen3" src="media/3.jpg" alt="">
-        <img class="imagen4" src="media/4.jpg" alt="">
-        
-        <video class="video1" autoplay loop muted>
-            <source src="media/1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        
-        <video class="video2" autoplay loop muted>
-            <source src="media/2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
- 
-    <div class="container">
-        <video class="video11" autoplay loop muted>
-            <source src="media/11.mp4" type="video/mp4">
-        </video>  
-    </div>
- 
-    <div class="container">
-        <img class="imagen17" src="media/17.jpg" alt="">
-        <video class="video13" autoplay loop muted>
-            <source src="media/13.mp4" type="video/mp4">
-        </video>
-        <video class="video14" autoplay loop muted>
-            <source src="media/14.mp4" type="video/mp4">
-        </video>
-        <video class="video15" autoplay loop muted>
-            <source src="media/15.mp4" type="video/mp4">
-        </video>
-        <video class="video16" autoplay loop muted>
-            <source src="media/16.mp4" type="video/mp4">
-        </video>
-        <video class="video18" autoplay loop muted>
-            <source src="media/18.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <div class="container">
-        <video class="video19" autoplay loop muted>
-            <source src="media/19.mp4" type="video/mp4">
-        </video>
-        <video class="video20" autoplay loop muted>
-            <source src="media/20.mp4" type="video/mp4">
-        </video>
-        <video class="video21" autoplay loop muted>
-            <source src="media/21.mp4" type="video/mp4">
-        </video>
-        <video class="video22" autoplay loop muted>
-            <source src="media/22.mp4" type="video/mp4">
-        </video>
-    </div>
+   <div class="grid-container"> 
+   <div class="imagen1"><img width="250" height="auto" src="media/3.jpg" alt="imagen1"></div>
+   <div class="imagen2"><img width="250" height="auto" src="media/4.jpg" alt="imagen2"></div> 
+   <div class="video1"><video width="125" height="125" autoplay loop muted  src="media/2.mp4"></video></div>
+   <div class="video2"><video width="250" height="auto" autoplay loop muted  src="media/5.mp4"></video></div>
+   <div class="video3"><video width="250" height="125" autoplay loop muted  src="media/1.mp4"></video></div>
+</div>
 </body>
 </html>
