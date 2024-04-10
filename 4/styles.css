@@ -13,7 +13,7 @@ html{
     border:2px solid rgb(245, 2, 2);
     grid-column-start:2;
     grid-column-end: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-row-end: 2;
 }
 
@@ -28,8 +28,6 @@ html{
 .video1{
     border: 2px solid red;
     grid-column-start:1;
-    grid-column-end: 1;
-    grid-row-start: 2;
     grid-row-end: 2;
 
 }
@@ -44,8 +42,6 @@ html{
 .video3{
     border: 2px solid red;
     grid-column-start:1;
-    grid-column-end:1;
-    grid-row-start: 0;
-    grid-row-end: 0;
+    grid-row-end: 1;
 
 }
