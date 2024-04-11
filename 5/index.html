@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulariio</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form method="post" action="/5">
+        <fieldset>
+            <legend>INFORMACION PERSONAL</legend>
+            <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Santiago Mendoza" required>
+            </div>
+            
+            <div>
+            <label for="phone">Teléfono:</label>
+            <input type="text" id="phone" name="phone" placeholder="3134963906" required>
+            </div>
+            <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="123@ejemplo.com" required>
+            </div>
+        <fieldset>
+            <legend>Cual es tu consulta</legend>
+            <div>
+            <label for="why">Selecciona tu consulta</label>
+            <select name="why" id="why">
+                <option value="1">Trabajo</option>
+                <option value="2">Estudio</option>
+                <option value="3">Otras consultas</option>
+            </select>
+            </div>
+            <div>
+                <label for="terms">Aceptas los terminos y condiciones?</label>
+                <input type="checkbox" id="terms" name="terms" required>
+            </div>
+        </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Deja tu comentario</legend>
+            <div>
+                <label for="comment">Comentario:</label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+
+
+
+    </form>
+
+    
+</body>
+</html>
